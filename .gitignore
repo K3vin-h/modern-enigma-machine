@@ -1,0 +1,18 @@
+# Local-only folders
+.claude/
+classic/
+docs/
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
