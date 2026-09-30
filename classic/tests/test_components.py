@@ -253,3 +253,15 @@ def test_plugboard_rejects_fourteen_pairs():
     pairs = [f"{A[i]}{A[i + 1]}" for i in range(0, 26, 2)] + ["AB"]
     with pytest.raises(ValueError):
         Plugboard(" ".join(pairs))
+
+
+def test_reflector_rejects_non_str_with_type_error():
+    with pytest.raises(TypeError):
+        Reflector(1)
+
+
+def test_thin_step_error_leaves_position_unchanged():
+    t = ThinRotor("Beta", "A", "C")
+    with pytest.raises(RuntimeError):
+        t.step()
+    assert t.position == "C"
