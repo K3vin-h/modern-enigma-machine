@@ -1,6 +1,5 @@
 # Local-only folders
 .claude/
-classic/
 docs/
 
 # Python / uv

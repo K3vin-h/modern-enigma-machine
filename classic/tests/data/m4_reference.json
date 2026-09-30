@@ -1,0 +1,23 @@
+{
+  "id": "u264-1942-11-25",
+  "source": "https://www.ciphermachinesandcryptology.com/files/Enigma%20Sim%20Manual.pdf",
+  "source_pages_1_based": [11, 12],
+  "source_section": "Authentic wartime U-Boat Message from the North Atlantic",
+  "wiring_source": "https://www.cryptomuseum.com/crypto/enigma/wiring.htm",
+  "settings": {
+    "model": "M4",
+    "reflector": "B-thin",
+    "rotors": ["Beta", "II", "IV", "I"],
+    "rings": "AAAV",
+    "positions": "VJNA",
+    "plugboard": "AT BL DF GJ HM NW OP QY RZ VX"
+  },
+  "body_start_group": "NCZW",
+  "body_end_group": "IIBG",
+  "excluded_prefix": "FCLC QRKN",
+  "excluded_printed_suffix": "FCLC QRKM VA",
+  "letter_count": 232,
+  "ciphertext": "NCZWVUSXPNYMINHZXMQXSFWXWLKJAHSHNMCOCCAKUQPMKCSMHKSEINJUSBLKIOSXCKUBHMLLXCSJUSRRDVKOHULXWCCBGVLIYXEOAHXRHKKFVDREWEZLXOBAFGYUJQUKGRTVUKAMEURBVEKSUHHVOYHABCJWMAKLFKLMYFVNRIZRVVRTKOFDANJMOLBGFFLEOPRGTFLVRHOWOPBEKVWMUQFMPWPARMFHAGKXIIBG",
+  "plaintext": "VONVONJLOOKSJHFFTTTEINSEINSDREIZWOYYQNNSNEUNINHALTXXBEIANGRIFFUNTERWASSERGEDRUECKTYWABOSXLETZTERGEGNERSTANDNULACHTDREINULUHRMARQUANTONJOTANEUNACHTSEYHSDREIYZWOZWONULGRADYACHTSMYSTOSSENACHXEKNSVIERMBFAELLTYNNNNNNOOOVIERYSICHTEINSNULL",
+  "notes": "Continuous A-Z transcription of the exact body and raw published decrypt, retaining reception errors. Excludes indicators and the printed trailing VA. Independently checked against the published key during plan revision; tests must compare the entire body offline."
+}
