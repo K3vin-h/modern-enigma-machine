@@ -1,6 +1,7 @@
 # Local-only folders
 .claude/
-docs/
+docs/*
+!docs/code/
 
 # Python / uv
 .venv/
